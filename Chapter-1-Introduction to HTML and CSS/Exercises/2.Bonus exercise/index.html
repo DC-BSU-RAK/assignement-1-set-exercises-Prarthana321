@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick-Reference Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- FOR NAVBAR -->
+    <div class="navbar">
+        <h1>Quick-Reference Guide</h1>
+    </div>
+
+    <br>
+
+    <!-- FOR HEADING -->
+     <div class="heading">
+        <b><u><h2>HTML-HyperText Markup Language</h2></u></b>
+     </div>
+
+     <br> <br> 
+
+    <!-- FOR CONTENT -->
+     <div class="text">
+        <p>
+            HTML (HyperText Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. HTML is not case sensitive. HTML is the code that is used to structure a webpage and its contents. The components used to design the structure of websites are called HTML tags. HTML tags are containers for some content or other HTML. HTML tag is parent of head and body tag. HTML elements contain opening and closing tags. HTML live inside text files called HTML documents, or just documents, with a <code>.html</code> file extention.
+        </p>
+     </div>
+     
+     <br> 
+     <hr>
+     <br>
+
+    <!-- FOR SUBHEADING 1 -->
+     <div class="subheading">
+        <u><b><h3>Anatomy of an HTML element</h3></b></u>
+     </div>
+
+     <br>
+
+     <!-- FOR CONTENT -->
+      <div class="text">
+        <p>
+            The anatomy of our element is:
+            <ul>
+                <li>
+                    <u><b>The opening tag:</b></u>This consists of the name of the element(in this example, <code class="codeColor">p</code> for paragraph), wrapped in opening and closing angle brackets. This openning tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.
+                </li>
+
+                <br>
+
+                <li>
+                    <u><b>The content:</b></u>This is the content of the element. In this example, it is the paragraph text.
+                </li>
+
+                <br>
+
+                <li>
+                    <u><b>The closing tag:</b></u>This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.
+                </li>
+
+                <br>
+
+                The element is the opening tag, followed by content, followed by the closing tag.
+            </ul>
+        </p>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+    <!-- FOR SUBHEADIMG 2 -->
+     <div class="subheading">
+        <u><b><h3>HTML structure in Detail</h3></b></u>
+     </div>
+
+     <br>
+
+    <!-- FOR CONTENT -->
+     <div class="text">
+        <p>
+            An HTML documet generally consists of these basic sections:
+
+            <br>
+
+            <ol>
+                <li>
+                    <code class="codeColor">!DOCTYPE html</code>
+                    <br>
+                    This is a declaration that tells the browser that the document is an HTML5 document, which helps ensure proper rendering. 
+                </li>
+                <br>
+                <li>
+                    <code class="codeColor">html</code>
+                    <br>
+                    This is the root element of the HTML page, wrapping all other HTML content.
+                </li>
+                <br>
+                <li>
+                    <code class="codeColor">head</code>
+                    <br>
+                    Contains meta-information about the document, like the title, links to stylesheets, scripts or other meta tags for SEO, and other settings that aren't directly visible to the user.
+                    <ul>
+                        <li>
+                            <code class="codeColor">meta:</code>Defines metadata like the character set or author of the page.
+                        </li>
+                        <li>
+                            <code class="codeColor">link:</code>Links to external files (like CSS stylesheets).
+                        </li>
+                        <li>
+                            <code class="codeColor">script:</code>Includes JavaScript
+                        </li>
+                    </ul>
+                </li>
+                <br>
+                <li>
+                    <code class="codeColor">body</code>
+                    <br>
+                    Contains all the visible content on the page, such as headings, paragraphs, images, forms, and so on.
+                </li>
+            </ol>
+        </p>
+     </div>
+
+     <br>
+     <hr>
+     <br>
+
+     <!-- FOR SUBHEADING 3 -->
+      <div class="subheading">
+        <u><b><h3>HTML Attributes</h3></b></u>
+      </div>
+
+      <br>
+
+    <!-- FOR CONTENT -->
+     <div class="text">
+        <p>
+            Attributes contain extra information about the element that won't appear in the content.
+            <p>An attribute should have:</p>
+            <ul>
+                <li>Space between is and the element name.</li>
+                <li>The attribute name, followed by an equal sign.</li>
+                <li>An attribute value, wrapped with openning and closing quote marks.</li>
+            </ul>
+            <p>Here are some attributes:</p>
+            <ol>
+                <li>
+                    <code class="codeColor">src</code> <br>
+                    Required attribute that specifies the location of the image. For example:
+                    <pre> 
+                        src="link"
+                    </pre>
+                </li>
+                <li>
+                    <code class="codeColor">alt</code> <br>
+                    Specifies a text description of the image. For example:
+                    <pre>
+                        alt="description"
+                    </pre>
+                </li>
+                <li>
+                    <code class="codeColor">width</code> <br>
+                    Specifies the width of the image with the unit being pixels. For example:
+                    <pre>
+                        width="300"
+                    </pre>
+                </li>
+                <li>
+                    <code class="codeColor">height</code> <br>
+                    Soecifies the height of the image with unit being pixels. For example:
+                    <pre>
+                        height="300"
+                    </pre>
+                </li>
+            </ol>
+        </p>
+     </div>
+
+     <br>
+     <hr>
+     <br>
+
+     <!-- FOR SUBHEADING 4 -->
+      <div class="subheading">
+        <u><b><h3>HTML Tags and Their Purpose</h3></b></u>
+      </div>
+
+      <br>
+
+    <!-- FOR CONTENT -->
+     <div class="table">
+        <table style="width: 100%;">
+            <tr>
+                <th>Tags</th>
+                <th>Description</th>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">title</code></td>
+                <td>Defines the title of the document (appears in the browser tab).</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">h1</code>,<code class="codeColor">h2</code>,.... <code class="codeColor">h6</code></td>
+                <td>Define headings for largest to smallest. <code class="codeColor">h1</code class="codeColor">-most important, <code class="codeColor">h6</code>-least important.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">p</code></td>
+                <td>Defines a paragraph.</td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">a</code></td>
+                <td>Defines a hyperlink.</td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">img</code></td>
+                <td>Defines an image.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">ul</code></td>
+                <td>Defines unordered lists.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">ol</code></td>
+                <td>Defines ordered lists.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">li</code></td>
+                <td>Defines list items.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">b</code>, <code id="codeColor">i</code>, <code id="codeColor">u</code></td>
+                <td>Highlights text in the page.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">big</code></td>
+                <td>It is used to display text big on the screen.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">small</code></td>
+                <td>It is used to display text small on the screen.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">div</code></td>
+                <td>Defines a block-level container for grouping content.</td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">pre</code></td>
+                <td>It is used to display text as it is without ignoring spaces and next line.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">br</code></td>
+                <td>Inserts line break in the text. It is a self closing tag.</td>
+            </tr>
+
+            <tr>
+                <td><code class="codeColor">hr</code></td>
+                <td>It is used to display horizontal ruler on the screen.It is used to separate contents.</td>
+            </tr>
+
+            <tr>
+                <td><code class="codeColor">button</code></td>
+                <td>Defines a clickable button.</td>
+            </tr>
+
+            <tr>
+                <td><code class="codeColor">section</code></td>
+                <td>It is used for a section of your page.</td>
+            </tr>
+
+            <tr>
+                <td><code class="codeColor">article</code></td>
+                <td>It is used for an article of the page.</td>
+            </tr>
+
+            <tr>
+                <td><code class="codeColor">aside</code></td>
+                <td>It is used for content aside main tag.</td>
+            </tr>
+
+            <tr>
+                <td><code class="codeColor">form</code></td>
+                <td>Defines a form used to collect user input.</td>
+            </tr>
+        </table>
+    </div>
+
+     <br>
+     <hr>
+     <br>
+
+     <!-- FOR SUBHEADING 5 -->
+      <div class="subheading">
+        <u><b><h3>Semantic Tags</h3></b></u>
+      </div>
+
+      <br>
+    
+    <!-- FOR CONTENT -->
+     <div class="text">
+     <p>
+        Semantic tags clearly describes it's meaning to both the browser and the developer. It increases code readbility and user experience. It is good for SEO improvement.
+        <pre>
+        for example: <code class="codeColor">article</code>, <code class="codeColor">aside</code>, <code class="codeColor">img</code>, <code class="codeColor">table</code>, <code class="codeColor">header</code>, <code class="codeColor">main</code>, <code class="codeColor">footer</code>, <code class="codeColor">section</code>.
+        </pre>
+     </p>
+     </div>
+
+     <br>
+     <hr>
+     <br>
+
+
+    <!-- FOR HEADING -->
+    <div class="heading">
+        <b><u><h2>CSS-Cascading Style Sheets</h2></u></b>
+     </div>
+
+     <br> <br> 
+
+      <!-- FOR CONTENT -->
+      <div class="text">
+        <p>
+           CSS stands for <b>Cascading Style Sheet</b>. CSS is a language that describes the style of the document. CSS describes how HTML elemnts are to displayed on the screen. CSS saves a lot of work. It can control the layout of multiple webpages all at once. External stylesheets are stored in CSS files. 
+        </p>
+     </div>
+     
+     <br> 
+     <hr>
+     <br>
+
+     <!-- FOR SUBHEADING 1 -->
+     <div class="subheading">
+        <u><b><h3>CSS Properties</h3></b></u>
+     </div>
+
+     <br>
+
+     <!-- FOR CONTENT -->
+     <div class="table">
+        <table style="width: 100%;">
+            <tr>
+                <th>Property</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">color</code></td>
+                <td>Sets the text color</td>
+                <td><code class="codeColor">color: red;</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">background-color</code></td>
+                <td>Sets the background color of an element.</td>
+                <td><code class="codeColor">background-color:yellow;</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">font-size</code></td>
+                <td>Defines the size of the text.</td>
+                <td><code class="codeColor">font-size:16px;</code></td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">padding</code></td>
+                <td>Defines the space inside an element (between the content and it's borders)</td>
+                <td><code class="codeColor">padding:10px;</code></td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">margin</code></td>
+                <td>Defines the space outside an element (around its border).</td>
+                <td><code class="codeColor">margin:20px;</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">border</code></td>
+                <td>Adds border to elements.</td>
+                <td><code class="codeColor">border:1px solid black;</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">text-align</code></td>
+                <td>Aligns the text (left, right, center)</td>
+                <td><code class="codeColor">text-align:center;</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">display</code></td>
+                <td>Defines the display behaviour of an element (block, inline, etc...).</td>
+                <td><code class="codeColor">display:flex;</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">width</code>, <code class="codeColor">height</code></td>
+                <td>Sets the width and height of elements.</td>
+                <td><code class="codeColor">width:4rem</code>, <code class="codeColor">height:5rem</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">position</code></td>
+                <td>Specifies the positioning of an element (relative, absolute, fixed, etc...)</td>
+                <td><code class="codeColor">position:relative;</code></td>
+            </tr>
+    
+        </table>
+    </div>
+
+     <br>
+     <hr>
+     <br>
+
+     <!-- FOR SUBHEADING 2 -->
+     <div class="subheading">
+        <u><b><h3>CSS Selectors</h3></b></u>
+     </div>
+
+     <!-- FOR CONTENT -->
+     <div class="table">
+        <table style="width: 100%;">
+            <tr>
+                <th>Selector</th>
+                <th>Example</th>
+                <th>Example Description</th>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">#id</code></td>
+                <td><code class="codeColor">#firstname</code></td>
+                <td>Selects the element with <code class="codeColor">id="firstname"</code>.</td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">.class</code></td>
+                <td><code class="codeColor">.intro</code></td>
+                <td>Selects all elements with <code class="codeColor">class="intro"</code></td>
+            </tr>
+    
+            <tr>
+                <td><code class="codeColor">*</code></td>
+                <td><code class="codeColor">*</code></td>
+                <td>Selects all elements.</td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">element</code></td>
+                <td><code class="codeColor">p</code></td>
+                <td>Selects all <code class="codeColor">p</code> elements.</td>
+            </tr>
+            
+            <tr>
+                <td><code class="codeColor">element</code>, <code class="codeColor">element</code></td>
+                <td><code class="codeColor">div</code>, <code class="codeColor">p</code></td>
+                <td>Selects all <code class="codeColor">div</code> elements and all <code class="codeColor">p</code> elements.</td>
+            </tr>
+    
+        </table>
+
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <!-- FOR SUBHEADING 3 -->
+     <div class="subheading">
+        <u><b><h3>CSS Text Properties</h3></b></u>
+     </div>
+
+     <br>
+
+     <!-- FOR CONTENT -->
+     
+     <div class="text">
+        <ul>
+            <li>
+                <code class="codeColor">text-align</code> <br>
+                <p>Aligns the text (left, right, center)</p>
+            </li>
+
+            <br>
+
+            <li>
+                <code class="codeColor">text-decoration</code> <br>
+                <p>Used to add decoration line to text.</p>
+            </li>
+
+            <br>
+
+            <li>
+                <code class="codeColor">text-shadow</code> <br>
+                <p>Adds shadow to text.</p>
+            </li>
+        </ul>
+     </div>
+
+
+      <br>
+      <hr>
+      <br>    
+     
+</body>
+</html>
