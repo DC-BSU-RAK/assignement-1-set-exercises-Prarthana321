@@ -1,0 +1,112 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0;  
+    font-family:cursive; 
+    border: border-box;
+}
+
+/* FOR THE BACKGROUND-COLOR OF THE BODY */
+
+body{
+    background-color: #7a1cac;
+}
+
+/* FOR THE HEADING OF THE WEBSITE */
+
+.heading{
+    height: 4rem;
+    background-color:  #2e073f;
+    color: #ebd3f8; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+/* FOR NAVIGATING THROUGHTOUT THE PAGE */
+.nav{
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 25px;
+        background-color: #2e073f;
+        color: #7a1cac;
+        cursor: pointer;
+}
+
+/* FOR THE SUB-HEADING OF THE WEBSITE */
+
+.subheading{
+    font-size: large;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    color: #ebd3f8;
+}
+
+/* FOR THE CONTENT OF THE WEBSITE */
+
+.content{
+    background-color:g;
+    text-align: left;
+    font-size: 3vh;
+    font-size: 3vw;
+    font-size: 3vmin;
+    line-height: normal;
+    background-color: white;
+    background-color: rgba(0,0,0, 0.5);  
+    padding: 30px;
+    border-radius: 70px;
+    border: 10px groove #2e073f;
+    top:700px; width:90rem; left:300px;;
+    color: #ebd3f8; 
+    display: flex; 
+    align-items: left; 
+    justify-content: space-evenly;
+}
+
+/* FOR THE BUTTON */
+
+.button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.series{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: #2e073f;
+    color: #7a1cac;
+    cursor: pointer;
+}
+
+p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#page{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50%;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: #7a1cac;
+    background-color: #2e073f;
+    cursor: pointer;
+}
+
+.nav{
+    display: inline;
+    justify-content: space-around;
+    align-items: left;
+    list-style-type:none;
+}
