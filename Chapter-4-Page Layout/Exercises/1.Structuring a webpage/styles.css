@@ -1,0 +1,110 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+/* FOR HEADER */
+/* FOR NAVBAR */
+.nav{
+    height: 10rem;
+    background-color: #17072b;
+    font-size: 700;
+}
+
+/* FOR NAVHEADING */
+.navheading{
+    text-decoration:  underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* FOR NAVCONTENT */
+.navcontent{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#img1{
+    height: 22rem;
+    width: 65rem;
+}
+
+/* FOR MAIN */
+/* FOR CONTENT */
+.content{
+    margin-left: 2rem;
+}
+
+/* FOR SUBHEADING */
+#bodyheading{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 700;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400;
+}
+
+/* FOR SIDEBAR */
+.sidebar{
+    height: 30rem;
+    width: 25rem;
+    margin-top: 2rem;
+    position:absolute;
+    right: 0;
+    top: 180px;
+    padding: 10px;
+    background-color: #172d67;
+    justify-content: right;
+    align-items: left;
+}
+
+#sidebarheading{
+    margin-left: 1rem;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+li{
+    margin-left: 1rem;
+    list-style-type: none;
+}
+
+.sidebarimg{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    height: 11rem;
+    width: 11rem;
+}
+
+/* FOR FOOTER */
+.footercontent{
+    height: 2.5rem;
+    background-color: #8c15e9;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
