@@ -11,7 +11,7 @@ body{
 /* FOR NAVBAR */
 .nav{
     height: 10rem;
-    background-color: #17072b;
+    background-color: #41dbc2;
     font-size: 700;
 }
 
@@ -71,7 +71,7 @@ p{
     right: 0;
     top: 180px;
     padding: 10px;
-    background-color: #172d67;
+    background-color: #4e76e2;
     justify-content: right;
     align-items: left;
 }
