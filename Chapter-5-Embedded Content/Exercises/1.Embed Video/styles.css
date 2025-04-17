@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    height: 5rem;
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video1{
+    margin: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
